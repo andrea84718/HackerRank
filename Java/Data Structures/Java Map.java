@@ -43,19 +43,19 @@ class Solution{
 		int n=in.nextInt();
 		in.nextLine();
         
-    HashMap<String, Integer> phonebook = new HashMap<String, Integer>(); 
+    		HashMap<String, Integer> phonebook = new HashMap<String, Integer>(); 
 		for(int i=0;i<n;i++){
 			String name=in.nextLine();
 			int phone=in.nextInt();
-      phonebook.put(name, phone);
+    			phonebook.put(name, phone);
 			in.nextLine();
 		}
 		while(in.hasNext()){
-	    	String name_search=in.nextLine();
-            if(phonebook.containsKey(name_search)){
-                System.out.println(name_search + "=" + phonebook.get(name_search));
-            }
-            else System.out.println("Not found");
+	    		String name_search=in.nextLine();
+            		if(phonebook.containsKey(name_search)){
+                		System.out.println(name_search + "=" + phonebook.get(name_search));
+            		}
+          		else System.out.println("Not found");
 		}
 	}
 }

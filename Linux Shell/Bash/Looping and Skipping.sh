@@ -1,4 +1,4 @@
-/*
+<<COMMENT
 Your task is to use for loops to display only odd natural numbers from  to .
 
 Input Format
@@ -17,7 +17,7 @@ Output Format
 .
 .
 99  
-*/
+COMMENT
 
 for ((i=1;i<=99;i++))
     do 
